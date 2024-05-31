@@ -12,7 +12,7 @@ This project employed Airline Quality Ratings dataset to determine the relations
 + Customer Type: Customer type of passenger (Returning, First-time)
 + Type of Travel: Purpose of the flight of passenger (Business, Personal)
 + Class: Travel class in the plane of passenger (Business, Economy, Economy Plus)
-2. Group **Flight** features comprises of each flight's characteristics, and passenger's evaluation of each flight's features, which ranges from 0 to 5.
+2. Group **Flight** features comprises of each flight's characteristics, and **passenger's evaluation** of each flight's features, which ranges from 0 to 5.
 + Flight Distance: The distance between the departing place and the destination of each flight
 + Departure Delay: Minutes delayed when passengers depart
 + Arrival Delay: Minutes delayed when passengers arrive
@@ -43,3 +43,20 @@ The final dataset was employed to perform EDA and analyze.
 ## 1. Average score of each criteria
 
 The below table showed the average score for each flight's feature in ascending order. On average, In-flight Wifi service and Ease of Online Booking were the two worst features with the lowest average score of 2.73 and 2.76 respectively, compared to other features. On the contrary, In-flight Service and Baggage Handling gained the highest average scores of over 3.6. However, in general, the scores of these flight's criterion were not high because their scores only ranged from 2.7 to 3.6.
+
+| Flight's feature | Average score    |
+| :---:   | :---: |
+| In-flight Wifi Service | 2.727   |
+| Ease of Online Booking | 2.757   |
+| Gate Location	| 2.977|
+|	Departure and Arrival Time Convenience|	3.058|
+|	Food and Drink |	3.205|
+|	Online Boarding	| 3.253|
+|	Cleanliness	| 3.286|
+|	Check-in Service |	3.306|
+|	Leg Room Service	| 3.351|
+|	In-flight Entertainment	| 3.358|
+|	On-board Service	| 3.383|
+|	Seat Comfort	| 3.441|
+|	Baggage Handling | 3.632|
+|	In-flight Service	| 3.642|
