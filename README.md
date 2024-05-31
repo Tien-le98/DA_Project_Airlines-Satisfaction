@@ -62,8 +62,13 @@ The below table showed the average score for each flight's feature in ascending 
 |	In-flight Service	| 3.642|
 
 ## 2. Relationship between passenger's information features and the overall Satisfaction
+According to the below bar plots, Gender and Customer type may not have strong affect on the satisfaction level since the difference between the quantity of dissatified and satisfied passengers were not huge between their classes.
+
+In terms of Travel Type, it can be seen that to personal-purpose trips, the majority of passengers dissatisfied or neutral with their airplanes, which was significantly higher than the number of satisfied passengers. On the contrary, business-purpose trips witnessed the opposite situation since more passengers were satisfied.
+
+To Class variable, the quantity of satisfied passengers using Business class was about double the figure for the remaining group. However, to Economy and Economy plus classes, majority of passengers were dissatisfied or neutral, especially to Economy class, the number of dissatisfied or neutral passengers were over 4 times the figure for satisfied passengers.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/passenger_info_satisfaction.png">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/passenger_info_satisfaction.png">
 </p>
 
