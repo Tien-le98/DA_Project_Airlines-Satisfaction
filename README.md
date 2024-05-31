@@ -83,5 +83,13 @@ There is a difference in the average age between both groups, however, this diff
 
 It can be seen that the average flight distance in Satisfied group were higher than the figure for the remaining group. In addition, the IQR range of flight distance in Satified group is much further to the top of the boxplot, which means that Satisfied group contains more longer flights than the Dissatisfied and neutral group.
 
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/business_flightdistance_satisfaction.png">
+</p>
 
+According to the above plots, passengers with business-purpose trips tended to travel longer routes, which was shown by the higher average flight distance in the first left boxplot. Hence, passengers may prefer to buy Business class tickets, especially when their flights were much longer, which can be seen in the second and the third plot. In the third boxplot, the quantity of Business class in Business travel type was doubled the quantity of Economy, and over 10 times higher than the number of Economy Plus class. In addition, while the average flight distance of Economy and Economy Plus in Business travel type were pretty similar to the figure for personal-purpose trips, the average flight distance of Business class was much greater, as presented in the second boxplot.
+
+In addition, since Business class has more benefits than other classes such as seat comfort, premium meals and drinks, priority check-in and boarding, complimentary amenity kits, legroom service,... passengers travelled with Business class tended to give higher scores for most flight's features such as Check-in Service, Online Boarding, On-board Service, Seat Comfort, Leg Room Service, Cleanliness, In-flight Service, and In-flight Entertainment, as shown in the below boxplots, and more likely to be satified with their flights than passengers travelling with Economy class.
+
+This also can explain for the situation observed above, which showed that the higher quantity of satisfied passengers gathered in Business group of Travel Type, greater values of Flight Distance, and Business class of Class variable.
 
