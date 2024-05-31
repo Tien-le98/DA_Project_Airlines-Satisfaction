@@ -97,3 +97,15 @@ In addition, since Business class has more benefits than other classes such as s
 
 This also can explain for the situation observed above, which showed that the higher quantity of satisfied passengers gathered in Business group of Travel Type, greater values of Flight Distance, and Business class of Class variable.
 
+## 4. Relationship between each criteria and the overall Satisfaction
+Among all variables related to passenger evaluation of flight's features, factors might not have strong relationship with satisfaction level were Departure and Arrival Time Convenience, Ease of Online Booking, Gate Location, In-flight service, Baggage Handling because their avarage value between two satisfaction levels were pretty the same, as shown in below plots.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/nonrelationship_var_satisfaction.png">
+</p>
+
+To other variables, generally, when passengers give high score for these factors, they tend to be satisfied with their flight. It was because the average score of most factors in Satisfied group were higher than the figures for Dissatisfied or Neutral group. For example, Online Boarding factor can have a stronger positive relationship with satisfaction level since more than 75% of satisfied passengers give a score of 4 or above to this critera, while 75% dissatisfied or neutral passengers give only a score of 3 or below. Hence, if passengers give a score of 4 or above to this Online Boarding factor, it is more likely that they can be classified in Satisfied group. Similarly, it also can be seen that 75% passengers in Satisfied group give a score of 4 or above to the In-flight Entertainment factor, while the figures for the remaining group was only about 25%. Therefore, with a score of 4 or above, passengers are more likely to be satisfied with their flights.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/relationship_var_satisfaction.png">
+</p>
