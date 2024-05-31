@@ -91,5 +91,9 @@ According to the above plots, passengers with business-purpose trips tended to t
 
 In addition, since Business class has more benefits than other classes such as seat comfort, premium meals and drinks, priority check-in and boarding, complimentary amenity kits, legroom service,... passengers travelled with Business class tended to give higher scores for most flight's features such as Check-in Service, Online Boarding, On-board Service, Seat Comfort, Leg Room Service, Cleanliness, In-flight Service, and In-flight Entertainment, as shown in the below boxplots, and more likely to be satified with their flights than passengers travelling with Economy class.
 
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/business_satisfaction.png">
+</p>
+
 This also can explain for the situation observed above, which showed that the higher quantity of satisfied passengers gathered in Business group of Travel Type, greater values of Flight Distance, and Business class of Class variable.
 
