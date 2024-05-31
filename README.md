@@ -38,4 +38,8 @@ After check the summary statistics, as well as features' distribution, several m
 + Addressing outliers in numeric variables
 + Feature selection
 
+The final dataset was employed to perform EDA and analyze.
 
+## 1. Average score of each criteria
+
+The below table showed the average score for each flight's feature in ascending order. On average, In-flight Wifi service and Ease of Online Booking were the two worst features with the lowest average score of 2.73 and 2.76 respectively, compared to other features. On the contrary, In-flight Service and Baggage Handling gained the highest average scores of over 3.6. However, in general, the scores of these flight's criterion were not high because their scores only ranged from 2.7 to 3.6.
