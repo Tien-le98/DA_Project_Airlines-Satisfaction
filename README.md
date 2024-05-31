@@ -34,9 +34,22 @@ These above factors were then used to measure the overall passenger's satisfacti
 
 After check the summary statistics, as well as features' distribution, several major data cleaning steps were implemented, including:
 + Handling missing values in Arrival Delay variable
-+ Modifying datatype and encoding categorical variables
 + Addressing outliers in numeric variables
-+ Feature selection
++ Modifying datatype and encoding categorical variables, with encoded values were shown in the below table
+
+| **Feature** | **Original value** | **Encoded value**|
+| :---:   | :---: | :---: |
+| Gender | Female | 0 |
+| Gender | Male | 1 |
+| Customer Type | First-time | 0 |
+| Customer Type | Returning | 1 |
+| Type of Travel | Personal | 0 |
+| Type of Travel | Business | 0 |
+| Class | Economy | 0 |
+| Class | Economy Plus | 1 |
+| Class | Business | 2 |
+
++ and lastly, Feature selection
 
 The final dataset was employed to perform EDA and analyze.
 
