@@ -42,7 +42,7 @@ The final dataset was employed to perform EDA and analyze.
 
 ## 1. Average score of each criteria
 
-The below table showed the average score for each flight's feature in ascending order. On average, In-flight Wifi service and Ease of Online Booking were the two worst features with the lowest average score of 2.73 and 2.76 respectively, compared to other features. On the contrary, In-flight Service and Baggage Handling gained the highest average scores of over 3.6. However, in general, the scores of these flight's criterion were not high because their scores only ranged from 2.7 to 3.6.
+The below table showed the average score for each flight's feature in ascending order. On average, In-flight Wifi service and Ease of Online Booking were the two worst features with the lowest average score of 2.73 and 2.76 respectively, compared to other features. It can be because In-flight Wifi quality has lower bandwidth and speed, due to the limitations of the technology and the distance involved, which can result in poor performance, slow loading, and disconnection. On the contrary, In-flight Service and Baggage Handling gained the highest average scores of over 3.6. However, in general, the scores of these flight's criterion were not high because their scores only ranged from 2.7 to 3.6.
 
 | Flight's feature | Average score    |
 | :---:   | :---: |
@@ -60,3 +60,10 @@ The below table showed the average score for each flight's feature in ascending 
 |	Seat Comfort	| 3.441|
 |	Baggage Handling | 3.632|
 |	In-flight Service	| 3.642|
+
+## 2. Relationship between passenger's information features and the overall Satisfaction
+
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
+</p>
+
