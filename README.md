@@ -29,4 +29,5 @@ This project employed Airline Quality Ratings dataset to determine the relations
 + In-flight Wifi Service: Passenger evaluation of the wifi quality in flight
 + In-flight Entertainment: Passenger evaluation of the in-flight entertainment
 + Baggage Handling: Passenger evaluation of baggle handling
+
 These above factors were then used to measure the overall passenger's satisfaction level, which was presented in the target variable (**Satisfaction** : Neutral or Dissatisfied, Satisfied).
