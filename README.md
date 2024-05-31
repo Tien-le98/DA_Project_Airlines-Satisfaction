@@ -72,3 +72,16 @@ To Class variable, the quantity of satisfied passengers using Business class was
     <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/passenger_info_satisfaction.png">
 </p>
 
+## 3. Relationship between numeric variables and the overall Satisfaction
+According to the below boxplots, Arrival Delay variable may not bring huge effect on satisfaction level since the average arrival delay in both satisfied and disatisfied groups were pretty similar.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/numerical_var_satisfaction.png">
+</p>
+
+There is a difference in the average age between both groups, however, this difference is pretty small, and their IQR range were overlapped with each other, which may not indicate a strong relationship between age and satisfaction level.
+
+It can be seen that the average flight distance in Satisfied group were higher than the figure for the remaining group. In addition, the IQR range of flight distance in Satified group is much further to the top of the boxplot, which means that Satisfied group contains more longer flights than the Dissatisfied and neutral group.
+
+
+
