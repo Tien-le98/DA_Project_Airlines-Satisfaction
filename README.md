@@ -31,3 +31,11 @@ This project employed Airline Quality Ratings dataset to determine the relations
 + Baggage Handling: Passenger evaluation of baggle handling
 
 These above factors were then used to measure the overall passenger's satisfaction level, which was presented in the target variable (**Satisfaction** : Neutral or Dissatisfied, Satisfied).
+
+After check the summary statistics, as well as features' distribution, several major data cleaning steps were implemented, including:
++ Handling missing values in **Arrival Delay** variable
++ Modifying datatype and encoding categorical variables
++ Addressing outliers in numeric variables
++ Feature selection
+
+
