@@ -64,6 +64,6 @@ The below table showed the average score for each flight's feature in ascending 
 ## 2. Relationship between passenger's information features and the overall Satisfaction
 
 <p align="center" width="100%">
-    <img width="30%" src="https://github.com/Tien-le98/DA_Project_Spotify/blob/main/energy_plot">
+    <img width="30%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/passenger_info_satisfaction.png">
 </p>
 
