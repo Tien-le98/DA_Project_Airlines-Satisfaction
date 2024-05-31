@@ -101,7 +101,7 @@ This also can explain for the situation observed above, which showed that the hi
 Among all variables related to passenger evaluation of flight's features, factors might not have strong relationship with satisfaction level were Departure and Arrival Time Convenience, Ease of Online Booking, Gate Location, In-flight service, Baggage Handling because their avarage value between two satisfaction levels were pretty the same, as shown in below plots.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/nonrelationship_var_satisfaction.png">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/norelationship_var_satisfaction.png">
 </p>
 
 To other variables, generally, when passengers give high score for these factors, they tend to be satisfied with their flight. It was because the average score of most factors in Satisfied group were higher than the figures for Dissatisfied or Neutral group. For example, Online Boarding factor can have a stronger positive relationship with satisfaction level since more than 75% of satisfied passengers give a score of 4 or above to this critera, while 75% dissatisfied or neutral passengers give only a score of 3 or below. Hence, if passengers give a score of 4 or above to this Online Boarding factor, it is more likely that they can be classified in Satisfied group. Similarly, it also can be seen that 75% passengers in Satisfied group give a score of 4 or above to the In-flight Entertainment factor, while the figures for the remaining group was only about 25%. Therefore, with a score of 4 or above, passengers are more likely to be satisfied with their flights.
@@ -109,3 +109,13 @@ To other variables, generally, when passengers give high score for these factors
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/relationship_var_satisfaction.png">
 </p>
+
+## CONCLUSION
+
+After performing EDA on this Airline Quality Ratings dataset, there are several main points as following:
++ Outliers existing in many numerical variables such as Flight Distance and Arrival Delay, however, these outliers were still in the valid range, and there are no specific reasons to remove them. Hence, these outliers were still kept in the dataset.
++ In general, when passengers give high score for flight's features, they tend to be satisfied with their flights. It was because the average score of most factors in Satisfied group were higher than the figures for Dissatisfied or Neutral group.
++ To business-purpose trips, passengers tended to travel longer routes than personal-purpuse trips. Therefore, they prefer to use Business class, especially when their flights were much longer. Since Business class has more advantages than other classes such as priority check-in and boarding, seat comfort, legroom,..., passengers tend to give higher scores for these flight's features, and hence they are more likely to be satisfied with their flights.
++ In comparison with other flight's features, In-flight Wifi service and Ease of Online Booking were the two worst features with the average score of only 2.73 and 2.76 respectively, evaluated by 130000 passengers. It can be because In-flight Wifi quality has lower bandwidth and speed, due to the limitations of the technology and the distance involved, which can result in poor performance, slow loading, and disconnection.
++ Most of other features gained average scores only between about 3 and 3.6. This means that all these criterion should improved in the future. However, several features, having stronger relationship with satisfaction level, should be paid more attention, which are Check-in Service, Online Boarding, On-board Service, Seat Comfort, Leg Room Service, Cleanliness, Food and Drink, In-flight Wifi Service, In-flight Entertainment.
++ There are several ways to enhance these criterion. For example, the airline can implement more flexible seating arrangements to improve seat comfort, invest in machines which can assist passengers with online boarding and online check-in more quickly and smoothly, redesign in-flight menu to meet customers' preferences, needs, and expectations, and research for new and more cost-effective Wifi solutions to increase Wifi quality on planes.
