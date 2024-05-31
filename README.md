@@ -46,8 +46,8 @@ The below table showed the average score for each flight's feature in ascending 
 
 | Flight's feature | Average score    |
 | :---:   | :---: |
-| $\color{green}{In-flight\ Wifi\ Service}$ | 2.727   |
-| Ease of Online Booking | 2.757   |
+| $\color{red}{In-flight\ Wifi\ Service}$ | $\color{red}{2.727}$   |
+| $\color{red}{Ease\ of\ Online\ Booking}$ | $\color{red}{2.757}$|
 | Gate Location	| 2.977|
 |	Departure and Arrival Time Convenience|	3.058|
 |	Food and Drink |	3.205|
