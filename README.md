@@ -5,14 +5,14 @@ _Date: 31/5/2024_
 
 ---
 This project employed Airline Quality Ratings dataset to determine the relationship between relevant factors and Passengers' Satisfaction level of their flights. This satisfaction was measured by nearly 130000 airline passengers. Relevant factors can be classified into 2 main groups, which are Passenger information and Flight features. 
-1. Group Passenger information includes features related to each passenger:
+1. Group **Passenger information** includes features related to each passenger:
 + ID: Passenger ID
 + Gender: Passenger gender (Male, Female)
 + Age: Passenger age
 + Customer Type: Customer type of passenger (Returning, First-time)
 + Type of Travel: Purpose of the flight of passenger (Business, Personal)
 + Class: Travel class in the plane of passenger (Business, Economy, Economy Plus)
-2. Group Flight features comprises of each flight's characteristics, and passenger's evaluation of each flight's features, which ranges from 0 to 5.
+2. Group **Flight** features comprises of each flight's characteristics, and passenger's evaluation of each flight's features, which ranges from 0 to 5.
 + Flight Distance: The distance between the departing place and the destination of each flight
 + Departure Delay: Minutes delayed when passengers depart
 + Arrival Delay: Minutes delayed when passengers arrive
@@ -33,7 +33,7 @@ This project employed Airline Quality Ratings dataset to determine the relations
 These above factors were then used to measure the overall passenger's satisfaction level, which was presented in the target variable (**Satisfaction** : Neutral or Dissatisfied, Satisfied).
 
 After check the summary statistics, as well as features' distribution, several major data cleaning steps were implemented, including:
-+ Handling missing values in **Arrival Delay** variable
++ Handling missing values in Arrival Delay variable
 + Modifying datatype and encoding categorical variables
 + Addressing outliers in numeric variables
 + Feature selection
