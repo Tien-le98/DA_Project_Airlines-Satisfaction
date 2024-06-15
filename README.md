@@ -1,4 +1,4 @@
-# DA_Project_Airlines-Satisfaction
+# Airline Passengers Satisfaction
 _Author: Clara Le_
 
 _Date: 31/5/2024_
