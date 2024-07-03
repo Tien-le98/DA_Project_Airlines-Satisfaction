@@ -44,7 +44,7 @@ After check the summary statistics, as well as features' distribution, several m
 | Customer Type | First-time | 0 |
 | Customer Type | Returning | 1 |
 | Type of Travel | Personal | 0 |
-| Type of Travel | Business | 0 |
+| Type of Travel | Business | 1 |
 | Class | Economy | 0 |
 | Class | Economy Plus | 1 |
 | Class | Business | 2 |
