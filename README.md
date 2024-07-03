@@ -45,13 +45,13 @@ To be more detailed, after checking the data range, it can be seen that:
 + The distribution of Departure Delay and Arrival Delay were significantly right-skewed since the majority of their data were less than about 150 minutes, meaning that there can be a lot of potential outliers in these variables.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/check_num_vars.png">
+    <img width="80%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/check_num_vars.png">
 </p>
 
 In terms of **Addressing outliers in numeric variables**, according to the below boxplots, Age seems to be normally distributed. On the contrary, Flight Distance and Arrival Delay had many outliers, which were outside of the IQR range. In addition, the majority of outliers were about below 600 minutes in Arrival Delay variable, according to the opacity of the outliers range. However, these outliers were still valid values, and there were no specific reasons to remove them, hence these extremely values were still remained in the dataset.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/outliers.png">
+    <img width="80%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/outliers.png">
 </p>
 
 In addition, the average passenger's age was 40 years old, and the average flight distance was about 844 miles. Additionally, passengers did not witness delay in their arrival on average since the median value of Arrival Delay was about 0.
@@ -72,7 +72,7 @@ In terms of **Modifying datatype and encoding categorical variables**, variables
 
 **Feature selection** is performed through checking linear correlation coefficients between features and the response variable.
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/corr_plot.png">
+    <img width="80%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/corr_plot.png">
 </p>
 
 According to the above correlation plot, various pairs of variables had medium linear relationship between its features. For example, Class and Travel Type has a medium linear relationship with correlation coefficient of about 0.545. Additionally, the figures for the pair of In-flight Entertainment and Cleanliness was 0.693. These positive correlation coefficients means that these variables tend to change in the same direction. If passengers give high score for 1 variable, they also tend to give high score for the another variable in the pair.
@@ -80,7 +80,7 @@ According to the above correlation plot, various pairs of variables had medium l
 Arrival Delay and Departure Delay were highly linearly correlated to each other, with their correlation coefficient of up to 0.959, which indicated the Multicollinearity problem. Because their values move together significantly, and Arrival Delay had slightly higher correlation to satisfaction level than Departure Delay, the Departure Delay variable was removed from the dataset.
 
 <p align="center" width="100%">
-    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/corr_plot_2.png">
+    <img width="80%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/corr_plot_2.png">
 </p>
 
 According to the later correlation plot and the above table showing correlation coefficient between variables, all considered features were seen to only have weak to medium linear relationship with Satisfaction variable. Class, Type of Travel, and Online Boarding were top 3 variables having the highest linear correlation to satisfaction level, with correlation coefficients of 0.49, 0.45, and 0.5 respectively. Among all variables, only Arrival Delay, Departure and Arrival Time Convenience, and Gate Location had very small negative linear correlation with the target variable, meaning that when the score in these features increases, passengers are more likely to be dissatified or neutral to their flights. The opposite is true for other independent variables.
