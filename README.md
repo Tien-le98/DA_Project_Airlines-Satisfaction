@@ -51,6 +51,14 @@ After check the summary statistics, as well as features' distribution, several m
 
 + and lastly, Feature selection
 
+In terms of **Handling missing values in Arrival Delay variable**, according to the below boxplots, Age seems to be normally distributed. On the contrary, Flight Distance and Arrival Delay had many outliers, which were outside of the IQR range. In addition, the majority of outliers were about below 600 minutes in Arrival Delay variable, according to the opacity of the outliers range. However, these outliers were still valid values, and there were no specific reasons to remove them, hence these extremely values were still remained in the dataset.
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/Tien-le98/DA_Project_Airlines-Satisfaction/blob/main/outliers.png">
+</p>
+
+In addition, the average passenger's age was 40 years old, and the average flight distance was about 844 miles. Additionally, passengers did not witness delay in their arrival on average since the median value of Arrival Delay was about 0.
+
 The final dataset was employed to perform EDA and analyze.
 
 ## 1. Average score of each criteria
