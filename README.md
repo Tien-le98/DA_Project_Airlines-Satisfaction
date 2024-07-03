@@ -32,26 +32,13 @@ This project employed Airline Quality Ratings dataset to determine the relations
 
 These above factors were then used to measure the overall passenger's satisfaction level, which was presented in the target variable (**Satisfaction** : Neutral or Dissatisfied, Satisfied).
 
-After check the summary statistics, as well as features' distribution, several major data cleaning steps were implemented, including:
+After that, several major data cleaning steps were implemented, including:
 + Handling missing values in Arrival Delay variable
 + Addressing outliers in numeric variables
-+ Modifying datatype and encoding categorical variables, with encoded values were shown in the below table
-
-| **Feature** | **Original value** | **Encoded value**|
-| :---:   | :---: | :---: |
-| Gender | Female | 0 |
-| Gender | Male | 1 |
-| Customer Type | First-time | 0 |
-| Customer Type | Returning | 1 |
-| Type of Travel | Personal | 0 |
-| Type of Travel | Business | 1 |
-| Class | Economy | 0 |
-| Class | Economy Plus | 1 |
-| Class | Business | 2 |
-
++ Modifying datatype and encoding categorical variables
 + and lastly, Feature selection
 
-In details, after checking the data range, it can be seen that:
+To be more detailed, after checking the data range, it can be seen that:
 + All columns representing for passenger's evaluation did not include any outliers or invalid values since their values were between 0 and 5. Other variables also do not have invalid values.
 + Only Arrival Delay column had missing values in this dataset (particularly 393 missing values).
 + Age column seems to approximate a normal distribution, while the distribution of Flight Distance was pretty right-skewed.
@@ -68,6 +55,20 @@ In terms of **Addressing outliers in numeric variables**, according to the below
 </p>
 
 In addition, the average passenger's age was 40 years old, and the average flight distance was about 844 miles. Additionally, passengers did not witness delay in their arrival on average since the median value of Arrival Delay was about 0.
+
+In terms of **Modifying datatype and encoding categorical variables**, variables are encoded with specific values shown in the below table:
+
+| **Feature** | **Original value** | **Encoded value**|
+| :---:   | :---: | :---: |
+| Gender | Female | 0 |
+| Gender | Male | 1 |
+| Customer Type | First-time | 0 |
+| Customer Type | Returning | 1 |
+| Type of Travel | Personal | 0 |
+| Type of Travel | Business | 1 |
+| Class | Economy | 0 |
+| Class | Economy Plus | 1 |
+| Class | Business | 2 |
 
 **Feature selection** is performed through checking linear correlation coefficients between features and the response variable.
 <p align="center" width="100%">
