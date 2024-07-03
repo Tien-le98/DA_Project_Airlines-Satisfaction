@@ -85,7 +85,7 @@ Arrival Delay and Departure Delay were highly linearly correlated to each other,
 
 According to the later correlation plot and the above table showing correlation coefficient between variables, all considered features were seen to only have weak to medium linear relationship with Satisfaction variable. Class, Type of Travel, and Online Boarding were top 3 variables having the highest linear correlation to satisfaction level, with correlation coefficients of 0.49, 0.45, and 0.5 respectively. Among all variables, only Arrival Delay, Departure and Arrival Time Convenience, and Gate Location had very small negative linear correlation with the target variable, meaning that when the score in these features increases, passengers are more likely to be dissatified or neutral to their flights. The opposite is true for other independent variables.
 
-The final dataset was the employed to analyze further.
+The final dataset was then employed to analyze further.
 
 ## 1. Average score of each criteria
 
