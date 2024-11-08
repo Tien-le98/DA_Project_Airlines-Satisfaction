@@ -1,5 +1,5 @@
 # Airline Passengers Satisfaction
-_Author: Clara Le_
+_Author: Pham Thuy Tien (Clara) Le_
 
 _Date: 31/5/2024_
 
